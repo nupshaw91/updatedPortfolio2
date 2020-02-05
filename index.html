@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nicholas Upshaw</title>
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <nav>
+      <div class="nav-wrapper grey darken-1">
+        <div id="Nav">
+          <a href="#" class="brand-logo right">Upshaw.INC</a>
+          <a href="#" class="sidenav-trigger" data-target="slideOut"><i class="material-icons">menu</i></a>
+
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li class="active"><a href="./index.html">About</a></li>
+            <li class="active"><a href="./projects.html">Portfolio</a></li>
+            <li class="active"><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <ul id="slideOut" class="sidenav">
+      <li class="active"><a href="./index.html">About</a></li>
+      <li class="active"><a href="./projects.html">Portfolio</a></li>
+      <li class="active"><a href="./contact.html">Contact</a></li>
+    </ul>
+
+    <div id="about" class="row">
+      <div class="col s12 m8 offset-m3 l6 offset-l3">
+        <div class="row ">
+          <div class="col s12 ">
+            <div class="card">
+              <div id="box">
+                <div class="card-image reponsive-img">
+                </div>
+                <img src="./assets/images/IMG_3279.jpg">
+                <span class="card-title">Nicholas Upshaw</span>
+              </div>
+              <div class="card-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum ultricies purus ac rhoncus.
+                  Donec laoreet gravida diam sed blandit. In blandit rhoncus imperdiet. Phasellus id scelerisque magna,
+                  in tempor ipsum. Cras consectetur vitae erat non faucibus. Suspendisse in imperdiet felis. In cursus
+                  faucibus condimentum. Vestibulum at laoreet magna. Aliquam sed massa vitae turpis tincidunt dapibus.
+                  Nullam lorem dolor, facilisis vel ex lacinia, pretium faucibus ex. Pellentesque habitant morbi
+                  tristique
+                  senectus et netus et malesuada fames ac turpis egestas. Curabitur eget metus vel mauris dapibus
+                  aliquet at
+                  placerat quam. Aliquam at imperdiet quam.
+                </p>
+              </div>
+              <div class="card-action">
+                <div class="card-tabs">
+                  <ul class="tabs tabs-fixed-width">
+                    <li class="tab"><a href="linkedin.com/in/nicholas-upshaw-b2469184">Linkedin</a></li>
+                    <li class="tab"><a href="https://github.com/nupshaw91">GitHub</a></li>
+                    <li class="tab"><a href="./assets/images/Microsoft Word - Resume.pdf">Resume</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    const slideOut = document.querySelectorAll(".sidenav");
+    M.Sidenav.init(slideOut, {});
+    //</script>
+  <script src="./assets/javascript/source.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+#container{
+    height: 1500px;
+    background-image: url("../images/mosaic.png");
+    
+}
+nav {
+    margin-bottom: 50px;
+    height: 53px;
+}
+#about{
+    margin-top: 10px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#about img{
+   height: 50%;
+   width: 50%;
+}
+.card{
+    color: whitesmoke;
+    background-color: transparent;
+    margin-top: 10px; 
+    
+}
+.card small{
+    height: 10px;
+    bottom: 10 px;
+}
+#projects{
+    margin-top: 10px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#about span {
+    color:whitesmoke;  
+}
+
+.tabs{
+    background-color: transparent;
+}
+.carousel img{
+width: 200%;
+height: 115%;
+}
+/* .indicators{
+    top: 30px;
+} */

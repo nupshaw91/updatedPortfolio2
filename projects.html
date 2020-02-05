@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nicholas Upshaw</title>
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <nav>
+      <div class="nav-wrapper grey darken-1">
+        <div id="Nav">
+          <a href="#" class="brand-logo right">Upshaw.INC</a>
+          <a href="#" class="sidenav-trigger" data-target="slideOut"><i class="material-icons">menu</i></a>
+
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li class="active"><a href="./index.html">About</a></li>
+            <li class="active"><a href="./projects.html">Portfolio</a></li>
+            <li class="active"><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <ul id="slideOut" class="sidenav">
+      <li class="active"><a href="./index.html">About</a></li>
+      <li class="active"><a href="./projects.html">Portfolio</a></li>
+      <li class="active"><a href="./contact.html">Contact</a></li>
+    </ul>
+
+
+    <div id="projects" class="row">
+      <div>
+        <div class="row">
+          <div class="col s8 m10 l9">
+
+            <ul class="carousel">
+              <li class="carousel-item">
+                <a href="https://nupshaw91.github.io/Giftastic/"><img src="./assets/images/giftastic.png">
+                </a>
+                <div class="card small">
+                  <div class="card-content">
+                    <p><a href="https://github.com/nupshaw91/Giftastic">Github link</a></p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="carousel-item">
+                <a href="https://nupshaw91.github.io/TrainScheduler/"><img src="./assets/images/trainScheduler.png">
+                </a>
+                <div class="card small">
+                  <div class="card-content">
+                    <p><a href="https://github.com/nupshaw91/TrainScheduler">Github link</a></p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="carousel-item">
+                <a href="https://nupshaw91.github.io/TriviaGame/"><img src="./assets/images/Trivia.png">
+                </a>
+                <div class="card small">
+                  <div class="card-content">
+                    <p><a href="https://github.com/nupshaw91/TriviaGame">Github link</a></p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="carousel-item">
+                <a href="https://nupshaw91.github.io/unit-4-game/"><img src="./assets/images/balance.png">
+                </a>
+                <div class="card small">
+                  <div class="card-content">
+                    <p><a href="https://github.com/nupshaw91/unit-4-game">Github link</a></p>
+                  </div>
+                </div>
+              </li>
+              <!-- <a class="carousel-item" href="#five!"><img class="responsive-img" src="./assets/images/IMG_3279.jpg"></a> -->
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    const slideOut = document.querySelectorAll(".sidenav");
+    M.Sidenav.init(slideOut, {});
+    //</script>
+  <script src="./assets/javascript/source.js"></script>
+</body>
+
+</html>

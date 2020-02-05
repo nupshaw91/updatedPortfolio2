@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nicholas Upshaw</title>
+
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+      <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <div class="nav-wrapper grey darken-1">
+              <div id="Nav">
+              <a href="#" class="brand-logo right">Upshaw.INC</a>
+              <a href="#" class="sidenav-trigger" data-target="slideOut"><i class="material-icons">menu</i></a>
+
+              <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li class="active"><a href="./index.html">About</a></li>
+                <li class="active"><a href="./projects.html">Portfolio</a></li>
+                <li class="active"><a href="./contact.html">Contact</a></li>
+              </ul>
+            </div>
+            </div>
+          </nav>
+
+          <ul id="slideOut" class="sidenav">
+            <li class="active"><a href="./index.html">About</a></li>
+            <li class="active"><a href="./projects.html">Portfolio</a></li>
+            <li class="active"><a href="./contact.html">Contact</a></li>
+          </ul>
+   
+        
+         <div class="row">
+        <div class="col s12 m8 offset-m3 l5 offset-l3">
+          <div class="card ">
+            <div class="card-action grey darken-1 lighten-1 white-text ">
+              Network
+            </div>
+            
+            <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                      <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <input id="last_name" type="text" class="validate">
+                      <label for="last_name">Last Name</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <input id="company" type="text" class="validate">
+                      <label for="company">Company Name</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <input id="email" type="email" class="validate">
+                      <label for="email">Email</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Comments and words of wisdom</label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <button class="btn waves-effect waves-light grey darken-1" type="submit" name="action">Submit
+              </button>
+                    
+        </div> 
+        </div>
+        </div> 
+      </div>
+    
+    
+  
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+    const slideOut = document.querySelectorAll(".sidenav");
+    M.Sidenav.init(slideOut,{});
+  //   </script>
+    <script src="./assets/javascript/source.js"></script>
+</body>
+</html>
